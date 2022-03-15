@@ -9,7 +9,7 @@ export default function Missions() {
       <Row>
         <Col style={{ textAlign: 'left', color: 'DarkOrange' }}><h5>09.2021-</h5></Col>
       </Row>
-      <Row xs={1} md={2} className="g-4">
+      <Row  className="g-4">
         <Col>
           <Card>
             <Card.Body>
@@ -28,7 +28,7 @@ export default function Missions() {
       <Row style={{ marginTop: '1rem' }}>
         <Col style={{ textAlign: 'left', color: 'DarkOrange' }}><h5>09.2018 - 06.2021</h5></Col>
       </Row>
-      <Row xs={1} md={2} className="g-4">
+      <Row  className="g-4">
         <Col>
           <Card >
             <Card.Body>

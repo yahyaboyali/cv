@@ -4,6 +4,7 @@ import SkillsAndCompetences from '../layouts/SkillsAndCompetences'
 import { Container,Row,Col} from 'react-bootstrap';
 import Projects from '../layouts/Projects';
 import Missions from '../layouts/Missions';
+import Certificates from '../layouts/Certificates';
 export default function Genel() {
     return (
 
@@ -16,7 +17,8 @@ export default function Genel() {
           <Col style={{ marginTop:'1rem' }}><Projects/></Col>
         </Row>
         <Row>
-          <Col style={{ marginTop:'1rem' }}><Missions/></Col>
+          <Col lg={6} style={{ marginTop:'1rem' }}><Missions/></Col>
+          <Col lg={6} style={{marginTop:'1rem'}}><Certificates/></Col>
         </Row>
       </Container>
     )

@@ -5,7 +5,7 @@ export default function Navi() {
   return (
     <Navbar bg="dark" variant='dark' expand="lg">
             <Container fluid="md">
-                <Navbar.Brand as={Link} to="/">
+                <Navbar.Brand as={Link} to="/cv">
                 Yahya Boyalı Cv
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />

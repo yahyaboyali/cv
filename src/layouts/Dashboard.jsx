@@ -9,11 +9,13 @@ import Genel from '../pages/Genel'
 import { Routes,Route } from 'react-router-dom'
 import Projects from './Projects'
 import Main from './Main'
+import MainPages from '../pages/MainPages'
 export default function Dashboard() {
   return (
     <div>
         <Routes>
-        <Route path="/" element={<Genel />} exact />
+        <Route path="/" element={<MainPages />} exact />
+        <Route path='/cv' element={<Genel />} exact/>
         <Route path='/Main' element={<Main/>}></Route>
         <Route path="/Education" element={<Education />} exact />
         <Route path="/SkillsAndCompetences" element={<SkillsAndCompetences />} exact />
@@ -23,10 +25,6 @@ export default function Dashboard() {
         <Route path="/Languages" element={<Languages />} exact />
         <Route path="/Interests" element={<Interests />} exact />
       </Routes>
-      <footer style={{marginTop:'1rem',padding:'1rem',backgroundColor:'LightGoldenRodYellow'
-    ,bottom:'0',left:'0',width:'100%'}}>
-        <p>Yahya Boyalı cv</p>
-      </footer>
     </div>
   )
 }

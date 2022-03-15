@@ -2,7 +2,8 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 export default function Main() {
     return (
-        <Container style={{ backgroundColor: 'SlateGrey' }}>
+        <div>
+<Container fluid style={{ backgroundColor: 'SlateGrey' }}>
             <Row>
                 <Col style={{ textAlign: 'left' }}><h4>Yahya Boyalı</h4></Col>
                 <Col style={{ textAlign: 'right', color: 'black' }}><a href="mailto:yahyaboyali@gmail.com"> yahyaboyali@gmail.com</a></Col>
@@ -25,9 +26,14 @@ export default function Main() {
                 <Col style={{ textAlign: 'right' }} >
                     <a href="https://www.linkedin.com/in/yahyaboyali/"
                         target="_blank">https://www.linkedin.com/in/yahyaboyali/</a></Col>
-                     <Col style={{ textAlign: 'right' }} ><a href='https://github.com/yahyaboyali' target="_blank" >https://github.com/yahyaboyali</a></Col>   
+                     
+            </Row>
+            <Row>
+            <Col style={{ textAlign: 'right' }} ><a href='https://github.com/yahyaboyali' target="_blank" >https://github.com/yahyaboyali</a></Col>   
             </Row>
         </Container>
 
+        </div>
+        
     )
 }

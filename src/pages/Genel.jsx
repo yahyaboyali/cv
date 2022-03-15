@@ -16,7 +16,7 @@ export default function Genel() {
             <Col><Main/></Col>
           </Row>
         <Row>
-          <Col lg={6} style={{ marginTop:'1rem' }}><Education/></Col>
+          <Col lg={6}style={{ marginTop:'1rem' }}><Education/></Col>
           <Col lg={6} style={{ marginTop:'1rem' }}><SkillsAndCompetences/></Col>
         </Row>
         <Row>

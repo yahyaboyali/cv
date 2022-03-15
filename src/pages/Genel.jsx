@@ -3,6 +3,7 @@ import Education from '../layouts/Education'
 import SkillsAndCompetences from '../layouts/SkillsAndCompetences'
 import { Container,Row,Col} from 'react-bootstrap';
 import Projects from '../layouts/Projects';
+import Missions from '../layouts/Missions';
 export default function Genel() {
     return (
 
@@ -13,6 +14,9 @@ export default function Genel() {
         </Row>
         <Row>
           <Col style={{ marginTop:'1rem' }}><Projects/></Col>
+        </Row>
+        <Row>
+          <Col style={{ marginTop:'1rem' }}><Missions/></Col>
         </Row>
       </Container>
     )

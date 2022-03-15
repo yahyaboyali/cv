@@ -4,7 +4,7 @@ export default function Education() {
   return (
     <Container>
       <Row>
-        <Col style={{ textAlign: 'left' }}><h1>EDUCATIONS</h1></Col>
+        <Col style={{ textAlign: 'left' }}><h4>EDUCATIONS</h4></Col>
       </Row>
       <Row>
         <Col style={{ textAlign: 'left', color: 'DarkOrange' }}><h5>2018-</h5></Col>

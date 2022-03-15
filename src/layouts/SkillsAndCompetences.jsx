@@ -4,7 +4,7 @@ export default function SkillsAndCompetences() {
   return (
     <Container>
       <Row>
-        <Col style={{ textAlign: 'left' }}><h1>SKILLS & COMPETENCES</h1></Col>
+        <Col style={{ textAlign: 'left' }}><h4>SKILLS & COMPETENCES</h4></Col>
       </Row>
       <Row>
         <ListGroup style={{ textAlign: 'left' }}>

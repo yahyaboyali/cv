@@ -6,7 +6,7 @@ export default function Certificates() {
       <Row>
         <Col style={{ textAlign: 'left', marginTop: '1rem', textDecoration: 'underline' }}><h4>CERTIFICATES & ACHIEVEMENTS </h4></Col>
       </Row>
-      <Row className="g-4">
+      <Row className="g-4" style={{ marginTop: '0.5rem' }}>
         <Col>
           <Card>
             <Card.Body>
@@ -25,7 +25,7 @@ export default function Certificates() {
           </Card>
         </Col>
       </Row>
-      <Row className="g-4">
+      <Row className="g-4" style={{ marginTop: '1rem' }}>
         <Col>
           <Card >
             <Card.Body>
@@ -39,7 +39,7 @@ export default function Certificates() {
           </Card>
         </Col>
       </Row>
-      <Row className="g-4">
+      <Row className="g-4" style={{ marginTop: '1rem' }}>
         <Col>
           <Card >
             <Card.Body>

@@ -29,7 +29,7 @@ export default function Projects() {
                 </div>
               </Card.Text>
               <div className="d-grid gap-2" style={{ textAlign: 'left' }}>
-                <Button href='https://github.com/yahyaboyali/bankamanager' target="_blank" variant="secondary">github link</Button>
+                <Button href='https://github.com/yahyaboyali/bankamanager' target="_blank" variant="secondary">click to github</Button>
               </div>
             </Card.Body>
           </Card>
@@ -61,27 +61,56 @@ export default function Projects() {
             </Card.Body>
           </Card>
         </Col>
-        <Card>
-          <Card.Body>
-            <Card.Title>Backgammon</Card.Title>
-            <Card.Text>
-              The purpose of this project is to understand
-              for keeping records in the file of the moves.
-              With this assignment, I improved my java
-              knowledge and practiced reading and writing
-              file structures.
-              <div style={{ textAlign: 'left', marginTop: '1rem' }}>
-                <h6>Using languages</h6>
-                java
-                <h6>using libraries</h6>
-                swing
+      </Row>
+      <Row xs={1} md={2} className="g-4">
+        <Col>
+          <Card>
+            <Card.Body>
+              <Card.Title>Backgammon</Card.Title>
+              <Card.Text>
+                The purpose of this project is to understand
+                for keeping records in the file of the moves.
+                With this assignment, I improved my java
+                knowledge and practiced reading and writing
+                file structures.
+                <div style={{ textAlign: 'left', marginTop: '1rem' }}>
+                  <h6>Using languages</h6>
+                  java
+                  <h6>using libraries</h6>
+                  swing
+                </div>
+              </Card.Text>
+              <div className="d-grid gap-2" style={{ textAlign: 'left' }}>
+                <Button href='https://github.com/yahyaboyali/backgammon' target="_blank" variant="secondary">click to github</Button>
               </div>
-            </Card.Text>
-            <div className="d-grid gap-2" style={{ textAlign: 'left' }}>
-              <Button href='https://github.com/yahyaboyali/backgammon' target="_blank" variant="secondary">github link</Button>
-            </div>
-          </Card.Body>
-        </Card>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card>
+            <Card.Body>
+              <Card.Title>CV WEB PAGE</Card.Title>
+              <Card.Text>
+                The purpose of this project is to practice for
+                using frontend Technologies which is Html ,
+                css, js and react . With this assignment, I
+                improved my frontend knowledge and
+                practiced design a web site .
+                <div style={{ textAlign: 'left', marginTop: '1rem' }}>
+                  <h6>Using languages</h6>
+                  HTML-CSS-JAVASCRIPT
+                  <h6>using libraries</h6>
+                  REACT
+                </div>
+              </Card.Text>
+              <div className="d-grid gap-2" style={{ textAlign: 'left' }}>
+                <Button href='https://github.com/yahyaboyali/cv' target="_blank" variant="secondary">click to github</Button>
+              </div>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+        </Col>
       </Row>
     </Container>
   )

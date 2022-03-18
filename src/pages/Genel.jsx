@@ -10,9 +10,9 @@ import Interests from '../layouts/Interests';
 import Main from '../layouts/Main';
 export default function Genel() {
     return (
-      <div>
+      <div >
         
-        <Container fluid="md">
+        <Container fluid="md" style={{border:'1px solid'}}>
           <Row>
           <Main/>
           </Row>

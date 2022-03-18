@@ -19,8 +19,8 @@ export default function Main() {
                 <Col style={{ textAlign: 'right' }}>Istanbul, TURKEY</Col>
             </Row>
             <Row style={{ textAlign: 'left' }}>
-                <Col md={'6'}><p>am a student of computer engineering, which was my childhood
-                    dream. I am a curious person who likes to work, tries to produce
+                <Col md={'6'}><p>I am a student of computer engineering, which was my childhood
+                    dream.<br/> I am a curious person who likes to work, tries to produce
                     innovative solutions for people and their own business, and does
                     not give up easily.</p></Col>
                 <Col style={{ textAlign: 'right' }} >
